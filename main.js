@@ -87,7 +87,6 @@ function generateInput() {
 
 const guessButton = document.querySelector(".check");
 guessButton.addEventListener("click", handleGuesses);
-console.log(wordToGuess);
 function handleGuesses() {
   let successGuess = true;
 
